@@ -22,7 +22,9 @@
         "Monoliittinen",
         "SOA",
         "Reaktiivinen",
-        "Python"
+        "Python",
+        "Hajautettu",
+        "Ei-rikkova"
     ];
 
     var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
