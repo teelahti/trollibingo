@@ -17,7 +17,11 @@
         "Bus",
         "Messaging",
         "Broker",
-        "Monadi"
+        "Monadi",
+        "Vuotava abstraktio",
+        "Monoliittinen",
+        "SOA",
+        "Reaktiivinen"
     ];
 
     var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
