@@ -1,0 +1,30 @@
+﻿body {
+    padding: 20px;
+    margin: 0;
+}
+
+#gridContainer {
+    padding: 0;
+    width: 455px;
+}
+
+#gridContainer > div {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+#gridContainer > div > label {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+#gridContainer > div > input {
+    display: none;
+}
+
+#gridContainer > div input:checked + label{
+    background-color: red;
+}
+

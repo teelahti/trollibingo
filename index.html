@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Trollibingo</title>
+    <meta name="description" content="Trollibingo">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="site.css">
+
+</head>
+
+<body>
+
+    <article id="gridContainer"></article>
+
+    <script id="grid-template" type="text/x-handlebars-template">
+
+        {{#each words}}
+        <div>
+            <input id="{{@index}}" type=checkbox />
+            <label for="{{@index}}">{{word}}</label>
+        </div>
+        {{/each}}
+
+    </script>
+
+    <script src="vendor/handlebars-v2.0.0.js"></script>
+    <script src="bingo.js"></script>
+</body>
+</html>
