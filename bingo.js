@@ -24,7 +24,9 @@
         "Reaktiivinen",
         "Python",
         "Hajautettu",
-        "Ei-rikkova"
+        "Ei-rikkova",
+        "Kompositio",
+        "Higher-order function"
     ];
 
     var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
