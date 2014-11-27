@@ -5,7 +5,7 @@
 
 #gridContainer {
     padding: 0;
-    width: 455px;
+    width: 456px;
 }
 
 #gridContainer > div {
@@ -13,12 +13,17 @@
     float: left;
     width: 150px;
     height: 150px;
+    border: solid 1px #808080;
+    text-align: center;
+
+    background-color: #ccc;
+    font-family: "Segoe UI", Verdana;
 }
 
 #gridContainer > div > label {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 149px;
+    height: 149px;
 }
 #gridContainer > div > input {
     display: none;
