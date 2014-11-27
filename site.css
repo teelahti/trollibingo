@@ -1,6 +1,7 @@
 ﻿body {
     padding: 20px;
     margin: 0;
+    font-family: "Segoe UI", Verdana;
 }
 
 #gridContainer {
@@ -17,7 +18,6 @@
     text-align: center;
 
     background-color: #ccc;
-    font-family: "Segoe UI", Verdana;
 }
 
 #gridContainer > div > label {
@@ -33,3 +33,8 @@
     background-color: red;
 }
 
+#gridContainer > p {
+    float: none;
+    clear: both;
+    margin-top: 20px;
+}

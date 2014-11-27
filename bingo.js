@@ -29,7 +29,7 @@
         "SOA",
         "Python",
         "HATEOAS",
-	]
+    ];
 
 	var words = wordsFuture.concat(wordsLastSeasonAndNegative);
 	var suffledGood = shuffleArray(wordsFuture);
