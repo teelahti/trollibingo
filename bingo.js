@@ -1,27 +1,32 @@
 (function () {
     "use strict";
 
+    var gridSize = 3;
     var words = [
-            "Staattinen tyypitys",
-            "Microservices",
-            "Haskell",
-            "Clojure",
-            "Lisp",
-            "ES6",
-            "Algebraiset tietotyypit",
-            "HATEOAS",
-            "Sivuvaikutus"
-    ],
-        template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
+        "Staattinen tyypitys",
+        "Microservices",
+        "Haskell",
+        "Clojure",
+        "Lisp",
+        "ES6",
+        "Algebraiset tietotyypit",
+        "HATEOAS",
+        "Sivuvaikutus",
+        "REST",
+        "Eventually consistent",
+        "Bus",
+        "Messaging",
+        "Broker",
+        "Monadi"
+    ];
+
+    var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
         gridInstance = {
-            words: shuffleArray(words)
+            words: shuffleArray(words).slice(0, gridSize*gridSize)
         },
-    container = document.getElementById("gridContainer");
+        container = document.getElementById("gridContainer");
 
     container.innerHTML = template(gridInstance);
-
-
-
 
     function shuffleArray(array) {
         for (var i = array.length - 1; i > 0; i--) {
