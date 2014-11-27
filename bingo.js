@@ -21,7 +21,8 @@
         "Vuotava abstraktio",
         "Monoliittinen",
         "SOA",
-        "Reaktiivinen"
+        "Reaktiivinen",
+        "Python"
     ];
 
     var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
