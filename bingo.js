@@ -9,7 +9,7 @@
         "Clojure",
         "Lisp",
         "ES6",
-        "Algebraiset tietotyypit",
+        "Algebralliset tietotyypit",
         "REST",
         "Eventually consistent",
         "Bus",
@@ -19,7 +19,16 @@
         "Hajautettu",
         "Ei-rikkova",
         "Kompositio",
-        "Higher-order function"
+        "Higher-order function",
+        "Kontaineri",
+        "FSharp",
+        "TypeScript",
+        "NPM",
+        "Redis",
+        "PowerShell",
+        "Staattinen metodi",
+        "Immutable",
+        "DDD"
     ];
     var wordsLastSeasonAndNegative = [
         "Sivuvaikutus",
@@ -29,6 +38,21 @@
         "SOA",
         "Python",
         "HATEOAS",
+        "Synkroninen",
+        "NServiceBus",
+        "SilverLight",
+        "Provideri",
+        "Spagetti",
+        "Tyypitön",
+        "M$",
+        "Reflektiopohjainen",
+        "Megaframework",
+        "Injektori",
+        "Jonotus",
+        "Udin lähestymistapa",
+        "Hotfixi",
+        "Käärmeenpesä",
+        "Mäppäyskerros"
     ];
 
 	var words = wordsFuture.concat(wordsLastSeasonAndNegative);
