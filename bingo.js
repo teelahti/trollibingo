@@ -72,7 +72,6 @@
     
     var good = wordGen(wordsFuture);
     var bad = wordGen(suffledBad);
-    console.log(good(), good());
     
     var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
         gridInstance = {
