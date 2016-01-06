@@ -28,7 +28,18 @@
         "PowerShell",
         "Staattinen metodi",
         "Immutable",
-        "DDD"
+        "Repository",
+        "Ekstensiometodi",
+        "Taskipohjainen",
+        "SignalR",
+        "Ylhäältä alas, kuin kirjaa",
+        "Analytiikka",
+        "Refaktorointi",
+        "Funktionaalinen",
+        "Sliding window cache",
+        "Observable",
+
+
     ];
     var wordsLastSeasonAndNegative = [
         "Sivuvaikutus",
@@ -40,7 +51,7 @@
         "HATEOAS",
         "Synkroninen",
         "NServiceBus",
-        "SilverLight",
+        "Silverlight",
         "Provideri",
         "Spagetti",
         "Tyypitön",
@@ -52,13 +63,20 @@
         "Udin lähestymistapa",
         "Hotfixi",
         "Käärmeenpesä",
-        "Mäppäyskerros"
+        "Mäppäyskerros",
+        "Syklinen riippuvuus",
+        "Himmeli",
+        "DDD",
+        "WCF",
+        "Infrastruktuurihärveli",
+        "Dodi",
+        "Testiautomaatio"
     ];
 
 	var words = wordsFuture.concat(wordsLastSeasonAndNegative);
 	var suffledGood = shuffleArray(wordsFuture);
 	var suffledBad = shuffleArray(wordsLastSeasonAndNegative);
-	
+
     function wordGen(words) {
         var shuffled = shuffleArray(words);
         var idx = 0;
@@ -66,17 +84,17 @@
             var word = shuffled[idx];
             idx++;
             return word;
-                
+
         }
      }
-    
+
     var good = wordGen(wordsFuture);
     var bad = wordGen(suffledBad);
-    
+
     var template = Handlebars.default.compile(document.getElementById("grid-template").innerHTML),
         gridInstance = {
             words: shuffleArray(words).slice(0, gridSize*gridSize),
-			nonsense: 
+			nonsense:
 				"Nyt mennään vähän off-topiciksi, mutta järjestelmän pitäisi olla suunniteltu niin, että se on " + good().toLowerCase() + ". \
 				Lähtökohtaisesi kannattaa fokusoitua siihen, että tulevaisuudessa kaiken ydin on " + good().toLowerCase()  + ".\
 				Nykyisin usein sorrumme siihen, että järjestelmästä tulee aivan liian " + bad().toLowerCase() + ".\
@@ -93,7 +111,7 @@
 				On itsestään selvää, että mitä enemmän " + good().toLowerCase() + "-kokonaisuuksia pystymme toimittamaan, niin sitä paremmin varmistamme \
 				pilvipalvelumme laadun kohti palvelua ylläpidettävämmäksi, testattavammaksi, luotettavammaksi, virhesietoisemmaksi, saatavammaksi ja kestävämmäksi \
 				kokonaisuudeksi."
-				
+
         },
         container = document.getElementById("gridContainer");
 
