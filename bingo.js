@@ -4,13 +4,15 @@
     var gridSize = 3;
     var wordsFuture = [
         "Staattinen tyypitys",
-        "Microservices",
+        "Serverless",
+        "Kubernetes",
+        "Docker",
         "Haskell",
         "Clojure",
         "Lisp",
         "ES6",
-        "Algebralliset tietotyypit",
-        "REST",
+        "Algebraiset tietotyypit",
+        "GraphQL",
         "Eventually consistent",
         "Bus",
         "Messaging",
@@ -20,6 +22,8 @@
         "Ei-rikkova",
         "Kompositio",
         "Higher-order function",
+        "Blockchain",
+        "Tekoäly",
         "Kontaineri",
         "FSharp",
         "TypeScript",
@@ -37,18 +41,21 @@
         "Refaktorointi",
         "Funktionaalinen",
         "Sliding window cache",
-        "Observable",
-
-
+        "Observable"
     ];
     var wordsLastSeasonAndNegative = [
+        "Microservices",
         "Sivuvaikutus",
         "Broker",
         "Vuotava abstraktio",
         "Monoliittinen",
         "SOA",
+        "REST",
         "Python",
         "HATEOAS",
+        "Javascript",
+        "Deadlock",
+        "Framework",
         "Synkroninen",
         "NServiceBus",
         "Silverlight",
