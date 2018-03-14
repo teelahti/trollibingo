@@ -4,13 +4,15 @@
     var gridSize = 3;
     var wordsFuture = [
         "Staattinen tyypitys",
-        "Microservices",
+        "Serverless",
+        "Kubernetes",
+        "Docker",
         "Haskell",
         "Clojure",
         "Lisp",
         "ES6",
         "Algebraiset tietotyypit",
-        "REST",
+        "GraphQL",
         "Eventually consistent",
         "Bus",
         "Messaging",
@@ -19,16 +21,23 @@
         "Hajautettu",
         "Ei-rikkova",
         "Kompositio",
-        "Higher-order function"
+        "Higher-order function",
+        "Blockchain",
+        "Tekoäly"
     ];
     var wordsLastSeasonAndNegative = [
+        "Microservices",
         "Sivuvaikutus",
         "Broker",
         "Vuotava abstraktio",
         "Monoliittinen",
         "SOA",
+        "REST",
         "Python",
         "HATEOAS",
+        "Javascript",
+        "Deadlock",
+        "Framework"
     ];
 
 	var words = wordsFuture.concat(wordsLastSeasonAndNegative);
